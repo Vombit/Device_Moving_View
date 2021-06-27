@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QRcode</title>
+        <%- include("partials/links.ejs") %>
+    </head>
+    <body>
+        <%- include("partials/header.ejs") %>
+
+
+        
+        <div class="container">
+             <h1>Новый QRcode: <br><%= qr_image %></h1>
+            <div class="QRimage">
+                <img src="/images/qrcodes/<%= qr_image %>.png">
+            </div>
+            <div class="QRimage">
+                <a class="button" href="/images/qrcodes/<%= qr_image %>.png" download>Скачать файл</a>
+            </div>
+        </div>
+
+        <%- include("partials/footer.ejs") %>
+    </body>
+</html>

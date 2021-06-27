@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QRcode</title>
+            <%- include("partials/links.ejs") %>
+            <script type="text/javascript" src="/javascripts/jquery-1.7.2.min.js"></script>
+    </head>
+    <body>
+        <style>
+            #font {margin: "0 auto;"}
+        </style>
+        <%- include("partials/header.ejs") %>
+
+        <div class="container">
+            <h1>Генератор QRcode</h1>
+            <div class="button-container"> 
+                <a class="button" href="/generate_single">Одиночные</a>
+                <a class="button" href="/generate_array">Партиями</a>
+            </div> 
+        </div>
+        <%- include("partials/footer.ejs") %>
+    </body>
+</html>

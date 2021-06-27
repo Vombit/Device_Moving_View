@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Главная</title>
+        <%- include("partials/links.ejs") %>
+    </head>
+    <body>
+        <%- include("partials/header.ejs") %>
+
+        <div class="container">
+            <h1>Главная</h1>
+            <div class="button-container">
+                <a class="button" href="/generate">Генератор QRcode</a>
+                <a class="button" href="/auth" id="password">Обновить данные</a>
+            </div>
+        </div>
+
+        <%- include("partials/footer.ejs") %>
+
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= serial %></title>
+        <%- include("partials/links.ejs") %>
+    </head> 
+    <body>
+        <%- include("partials/header.ejs") %>
+
+        <div class="container">
+            <h1>Серийный номер: <%- brode %><%= serial %></h1>
+            <table class="content-table">
+                    <%- database %>
+            </table>
+            
+            <h5>База приборов от: <%= dat %></h5>
+        </div>
+
+        <%- include("partials/footer.ejs") %>
+    </body>
+</html>
