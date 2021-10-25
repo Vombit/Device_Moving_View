@@ -25,3 +25,5 @@
 ### Use Docker
 * `docker-compose up db`
 * `docker-compose up web`
+or
+* `docker-compose up -d`
