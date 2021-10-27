@@ -26,5 +26,5 @@
 * `docker-compose up db`
 * `docker-compose up web`
 
-or
-* `docker-compose up -d`
+  * or
+* `docker-compose up -d` (desirable)
