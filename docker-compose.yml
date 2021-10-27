@@ -10,6 +10,7 @@ services:
       MYSQL_PASSWORD: test
     ports:
       - '3306:3306'
+    restart: always
 #    security_opt:
 #      - seccomp:unconfined
 #    volumes:
@@ -26,7 +27,7 @@ services:
       admin_pass: password
     depends_on:
       - db
-    command: sh -c "sleep 30s && node app.js"
+    command: sh -c "sleep 15s && node app.js"
 
     ports:
       - '80:3000'
