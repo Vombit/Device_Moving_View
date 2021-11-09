@@ -1,7 +1,5 @@
 [![NodeJS](https://github.com/Vombit/Device_Moving_View/actions/workflows/node.js.test.yml/badge.svg)](https://github.com/Vombit/Device_Moving_View/actions/workflows/node.js.test.yml) [![Docker](https://github.com/Vombit/Device_Moving_View/actions/workflows/docker-image.yml/badge.svg)](https://github.com/Vombit/Device_Moving_View/actions/workflows/docker-image.yml)
 
-# PracticalWork
-
 ### Use Node.js
 #### Install
 * Install `Node.js v14.x`
