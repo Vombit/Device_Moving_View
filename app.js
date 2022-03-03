@@ -17,10 +17,10 @@ app.set('views', 'views');
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(session({
-    secret: '2DEB-ILA4-JQPA0EJA',
+    secret: '2DEB-ILA4-JQPA0EJA', 
     resave: true,
     saveUninitialized: true
-}));
+})); //change
 const urlencodedParser = bodyParser.urlencoded({extended: false});
 
 var sql = `CREATE TABLE IF NOT EXISTS ${process.env.DB_TABLE_NAME} (
